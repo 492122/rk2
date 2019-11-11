@@ -15,8 +15,8 @@
  <form action=" " method="POST">;
  </form>
  <?php
- (0<>($_POST["a"]))($m = ($_POST["b"])*($_POST["b"])-4*($_POST["a"])($_POST["c"])
- if ($m>==0)  {
+ (0<>($_POST["a"]))($m = ($_POST["b"])*($_POST["b"])-4*($_POST["a"])($_POST["c"]);
+ if ($m>=0)  {
 echo "X1=", (-$_POST["a"] - $m)/2*($_POST["a"]); <br>
 echo "X2=", (-$_POST["a"] + $m)/2*($_POST["a"]); <br>
  }
